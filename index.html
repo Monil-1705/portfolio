@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monil Panchal | Data Analyst</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <!-- <li><a href="#skills">Skills</a></li> -->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-text" data-aos="fade-right">
+        <h1>Hi, I'm <span class="name">Monil Panchal</span></h1>
+        <p><span id="typed"></span></p>
+      </div>
+      <div class="hero-image" data-aos="fade-left">
+        <img src="profile.jpg" alt="Monil Panchal" />
+      </div>
+    </header>
+
+    <section id="about" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>
+        I am an Information Technology student at L.D. College of Engineering,
+        currently in my 6th semester. I am building my skills in data analytics
+        using tools like Excel, Python, and Tableau. I'm a quick learner with a
+        keen interest in exploring how technology and data can be used to solve
+        real-world problems.
+      </p>
+      <p style="display: flex; gap: 12px; margin-top: 12px">
+        <a
+          href="https://www.linkedin.com/in/monil-panchal-680852242"
+          target="_blank"
+          class="btn-icon">
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/Monil-1705"
+          target="_blank"
+          class="btn-icon">
+          GitHub
+        </a>
+      </p>
+    </section>
+
+    <section id="projects" data-aos="fade-up">
+      <h2 style="text-align: center">My Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="card">
+          <img src="imdb.jpg" alt="IMDB Movie Analysis" />
+          <h3>IMDB Movie Analysis</h3>
+          <p>
+            Analyzed movie trends across genres, durations, languages, budgets,
+            and directors. Created interactive visual reports using Pivot Tables
+            and Charts. Delivered actionable insights for movie production
+            optimization.
+          </p>
+          <a
+            href="https://drive.google.com/drive/folders/138LH2Juiqi7HzSW4MUXJ4lFGHR3kfZ-J?usp=drive_link"
+            class="btn-view"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card">
+          <img src="car.jpg" alt="Car Price Analysis" />
+          <h3>Car Price and Profitability Analysis</h3>
+          <p>
+            Explored the impact of car features on price and profitability. Used
+            regression, combo charts, and dashboards for visualization.
+            Suggested data-backed pricing strategies and product improvements.
+          </p>
+          <a
+            href="https://drive.google.com/drive/folders/11BgONRMiirxRVaMrQsWQYhjGyDW1nqtJ?usp=drive_link"
+            class="btn-view"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+
+        <!-- Project 3 -->
+        <div class="card">
+          <img src="call.jpg" alt="Call Volume" />
+          <h3>Call Volume and Shift Planning</h3>
+          <p>
+            Conducted hourly call volume analysis for manpower planning.
+            Identified peak demand times; proposed dynamic staffing model.
+            Enhanced efficiency in resource utilization.
+          </p>
+          <a
+            href="https://drive.google.com/drive/folders/1rFsfEU5Aq5R12FjqixOV5s-Ql7li0qa2?usp=drive_link"
+            class="btn-view"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card">
+          <img src="bank.jpg" alt="Bank Loan Case Study" />
+          <h3>Bank Loan Case Study</h3>
+          <p>
+            Conducted univariate, segmented, and bivariate analysis on key
+            financial and demographic features such as income, credit amount,
+            and annuity. Analyzed target variable relationships to uncover
+            trends in loan approvals vs. rejections. Identified key drivers
+            impacting loan decisions and provided strategic recommendations to
+            reduce default risks.
+          </p>
+          <a
+            href="https://drive.google.com/drive/folders/1yE9OhF7_dlRPWXkAlV0_5n-9k8T_tRUK?usp=drive_link"
+            class="btn-view"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+
+        <!-- Project 5 -->
+        <div class="card">
+          <img src="Phone.jpg" alt="Hiring Process Analysis" />
+          <h3>Hiring Process Analysis</h3>
+          <p>
+            Analyzed end-to-end hiring pipeline data including stages like
+            screening, interviews, offers, and joining. Identified key
+            bottlenecks in candidate drop-offs and delays across various hiring
+            stages. Delivered insights on recruiter efficiency, stage conversion
+            rates, and hiring turnaround time.
+          </p>
+          <a
+            href="https://drive.google.com/drive/folders/16x4apJqTw1OGC683p4OML9pkEbreJoDY?usp=drive_link"
+            class="btn-view"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+      <h2 style="text-align: center">Contact Me</h2>
+
+      <form
+        action="https://formsubmit.co/el/lijaze"
+        method="POST"
+        class="contact-form">
+        <input
+          type="hidden"
+          name="_next"
+          value="http://127.0.0.1:3000/thankyou.html" />
+        <input type="hidden" name="_captcha" value="false" />
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Monil Panchal — Data Analyst Portfolio</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
